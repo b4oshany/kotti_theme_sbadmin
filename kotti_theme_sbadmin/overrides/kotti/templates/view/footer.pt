@@ -9,8 +9,3 @@
         <span class="pull-right" tal:condition="api.has_permission('admin', api.root)">See <a href="/changelog">Changelog</a> for release details.</span>
     </div>
 </footer>
-
-
-<script tal:condition="api.has_permission('admin')">
-  notify_verison_update();
-</script>
